@@ -103,7 +103,7 @@ const pizza1 = {
     category: 'appetizer',
     popularity: 2,
     rating: 1,
-    tags: ['no extra cheese', 'extra sauce']
+    tags: ['extra pep', 'extra sauce']
 }
 const pizza2 = {
     name: 'sausage',
@@ -111,31 +111,31 @@ const pizza2 = {
     category: 'appetizer1',
     popularity: 3,
     rating: 2,
-    tags: ['extratra cheese', 'nono sauce']
+    tags: ['extra sausage', 'no sauce']
 }
 const pizza3 = {
-    name: 'meat lovers',
+    name: 'cheese',
     price: 15,
     category: 'appetizer2',
     popularity: 4,
     rating: 3,
-    tags: ['extra cheese', 'no sauce']
+    tags: ['extra cheese', 'no cheese']
 }
 const pizza4 = {
-    name: 'meat lovers',
+    name: 'hawaiian',
     price: 20,
     category: 'appetizer3',
     popularity: 5,
     rating: 4,
-    tags: ['extra cheese', 'no sauce']
+    tags: ['extra ham', 'no pineapple']
 }
 const pizza5 = {
-    name: 'meat lovers',
+    name: 'veggie',
     price: 25,
     category: 'appetizer4',
     popularity: 6,
     rating: 5,
-    tags: ['extra cheese', 'no sauce']
+    tags: ['extra veggies', 'no meat']
 }
 
 const foodArr = [pizza1, pizza2, pizza3, pizza4, pizza5]
@@ -155,7 +155,7 @@ const foodArr = [pizza1, pizza2, pizza3, pizza4, pizza5]
 //CODE HERE
 
 
-const filteredFood = foodArr.filter(element => element.tags[0] === "no extra cheese")
+ro
 console.log(filteredFood)
 
 
@@ -199,8 +199,14 @@ console.log(filteredFood)
 */
 
 //CODE HERE
+const filterByProperty = {
+    property: 'Price',
+    number: 100000,
+    type: 'Above'
 
+}
 
+const filteredProperty = property.filter(property => property.price > 100000)
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.
@@ -209,3 +215,4 @@ console.log(filteredFood)
 */
 
 //CODE HERE
+console.log(filterByProperty(property))

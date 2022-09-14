@@ -34,9 +34,13 @@ const cart = [
 ]
 
 //CODE HERE
-const summedPrice = cart.reduce(price[1])
-console.log(price[1])
+const price = [9.99, 8.99, 7.99];
 
+const sum = price.reduce((acc, curr) => {
+    return acc + curr;
+});
+
+console.log(`Sum of all food is ${sum}`);
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -59,8 +63,8 @@ const calcFinalPrice = {
     couponValue: 1.00,
     tax: .02
 
-
 }
+
 
 
 //////////////////PROBLEM 3////////////////////
