@@ -155,8 +155,6 @@ const foodArr = [pizza1, pizza2, pizza3, pizza4, pizza5]
 //CODE HERE
 
 
-ro
-console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
@@ -215,4 +213,4 @@ const filteredProperty = property.filter(property => property.price > 100000)
 */
 
 //CODE HERE
-console.log(filterByProperty(property))
+console.log(filterByProperty)

@@ -76,7 +76,12 @@ const canWeDeliver = zipCode => {
 */
 
 // CODE HERE
-
+const canWeDeliverTwo = zipCode => {
+    if(zipCode = deliveryAreaZipCodes) {
+        return 'We can deliver to you'
+    } else {
+        return 'We cannot deliver to you'
+    }
 
 //////////////////PROBLEM 3////////////////////
 /* 

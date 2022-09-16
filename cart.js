@@ -34,13 +34,9 @@ const cart = [
 ]
 
 //CODE HERE
-const price = [9.99, 8.99, 7.99];
+const sumOfPrice = cart.reduce((sum, cart) => sum + cart.price, 0)
 
-const sum = price.reduce((acc, curr) => {
-    return acc + curr;
-});
-
-console.log(`Sum of all food is ${sum}`);
+console.log(`Sum of all food is ${sumOfPrice}`);
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -58,12 +54,7 @@ console.log(`Sum of all food is ${sum}`);
 */
 
 //CODE HERE
-const calcFinalPrice = {
-    cartTotal: 5.00,
-    couponValue: 1.00,
-    tax: .02
 
-}
 
 
 
